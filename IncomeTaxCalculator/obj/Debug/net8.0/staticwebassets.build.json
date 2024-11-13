@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "clH5SzMwcJNkOXjbPq0uxszbE+KmMempRyztPPMt1NQ=",
+  "Source": "IncomeTaxCalculator",
+  "BasePath": "_content/IncomeTaxCalculator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

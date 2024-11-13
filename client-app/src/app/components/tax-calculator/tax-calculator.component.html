@@ -1,0 +1,20 @@
+<div>
+    <h2>Income Tax Calculator</h2>
+    <form (submit)="calculateTax()">
+        <label for="salary">Gross Annual Salary:</label>
+        <input type="number" id="salary" [(ngModel)]="grossAnnualSalary" name="salary" required />
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div *ngIf="taxResult">
+        <h3>Calculation Results</h3>
+        <p>Gross Annual Salary: {{ taxResult.grossAnnualSalary | pound }}</p>
+        <p>Gross Monthly Salary: {{ taxResult.grossMonthlySalary | pound }}</p>
+        <p>Net Annual Salary: {{ taxResult.netAnnualSalary | pound }}</p>
+        <p>Net Monthly Salary: {{ taxResult.netMonthlySalary | pound }}</p>
+        <p>Annual Tax Paid: {{ taxResult.annualTaxPaid | pound }}</p>
+        <p>Monthly Tax Paid: {{ taxResult.monthlyTaxPaid | pound }}</p>
+    </div>
+
+    <p *ngIf="error">{{ error }}</p>
+</div>

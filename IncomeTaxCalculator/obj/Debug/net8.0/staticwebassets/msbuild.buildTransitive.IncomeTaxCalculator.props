@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\IncomeTaxCalculator.props" />
+</Project>
