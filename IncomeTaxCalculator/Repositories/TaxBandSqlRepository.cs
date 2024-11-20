@@ -16,5 +16,11 @@ namespace IncomeTaxCalculator.Repositories
         {
             return _context.TaxBands.OrderBy(taxBand => taxBand.LowerLimit).ToListAsync();
         }
+
+        public async Task InsertTaxBandsAsync(List<TaxBand> taxBands)
+        {
+            await _context.TaxBands.AddRangeAsync(taxBands);
+            await _context.SaveChangesAsync();
+        }
     }
 }

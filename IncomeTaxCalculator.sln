@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncomeTaxCalculator", "Inco
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncomeTaxCalculator.Tests", "IncomeTaxCalculator.Tests\IncomeTaxCalculator.Tests.csproj", "{48BD01DC-FD8B-4164-803F-AB9F1AD8ABEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{FA86A32D-27E2-47A3-86A8-7DC1FB1B5CDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{FA86A32D-27E2-47A3-86A8-7DC1FB1B5CDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
